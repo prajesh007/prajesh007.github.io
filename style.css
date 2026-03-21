@@ -861,3 +861,23 @@ font-size:30px;
 
 }
 /* ================= END OF MOBILE VIEW ================= */
+
+.github-btn {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(135deg, #8b5cf6, #22d3ee);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.github-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.6);
+    background: linear-gradient(135deg, #22d3ee, #8b5cf6);
+}
